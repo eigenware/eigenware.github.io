@@ -4,14 +4,7 @@
     url('aayu.eot');
 }
 
-.aaryu{
-    text-decoration: none;
-    font-family: myFancyFont !important;
-    font-weight: 100;
-    text-transform: none;
-    font-size: 200px !important;
-    margin-bottom: 0px !important;
-}
+
 
 #imageCSS{
 	padding-left: 0px;
@@ -87,3 +80,101 @@ div#slider figure {
   font-size: 0;
   animation: 30s slidy infinite; 
 }
+
+
+/************************************************************/
+
+.slider {
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(../img/slider/img1.jpg)no-repeat;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(../img/slider/img2.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(../img/slider/img3.jpg)no-repeat;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+.slide4 {
+    background: url(../img/slider/img4.jpg)no-repeat;
+      background-size: cover;
+    animation:fade4 8s infinite;
+-webkit-animation:fade4 8s infinite;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
+  100% { opacity: 0}
+}
+
+@media(min-width: 600px) {
+    .aaryu{
+        font-size: 150px !important;
+    }
+}
+
+@media(min-width:400px) and (max-width:600px) {
+    .aaryu{
+        font-size: 80px !important;
+    }
+}
+
+@media (max-width:400px) {
+    .aaryu{
+        font-size: 60px !important;
+    }
+}
+
+ .aaryu{
+        text-decoration: none;
+        font-family: myFancyFont !important;
+        font-weight: 100;
+        text-transform: none;
+        margin-bottom: 0px !important;
+    }

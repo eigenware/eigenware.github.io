@@ -9,8 +9,8 @@ body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background-color: #93073e;
-    font-weight: 300;
+    background-color: #f9f9f9;
+    font-weight: 100;
 }
 
 html {
@@ -62,7 +62,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .dark-cover{
@@ -70,7 +70,17 @@ a:focus {
     width: 100%;
     /*height: 500px;*/
     /*background: rgba(0, 0, 0, 0.5);*/
-    background-color: #5b1647;
+    background-color: #222222;
+}
+
+.alpha-cover{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    background-color: #000000;
+    opacity: 0.5;
 }
 
 .theme{
@@ -89,7 +99,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #5b1647;
+    background-color: #222222;
 }
 
 .navbar-custom .navbar-brand {
@@ -159,17 +169,17 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #5b1647;
+        background: #222222;
     }
 }
 
 .intro {
-    height: 500px !important;
+    height: 550px !important;
     position: relative;
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0 0;
     text-align: center;
     color: #fff;
 }
@@ -178,6 +188,7 @@ a:focus {
     position: relative;
     display: table-cell;
     vertical-align: middle;
+    z-index: 100;
 }
 
 .intro .intro-body .brand-heading {
@@ -210,7 +221,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 200px;
-    background-color: #ff5627;
+    background-color: #2d95ff;
     padding-top: 50px;
 }
 
@@ -293,7 +304,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .download-section {
@@ -301,7 +312,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background-color: #c90035;
+    background-color: #007fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -316,7 +327,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 80px;
     }
 
     .download-section {
@@ -380,7 +391,8 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
+    background: #222222;
 }
 
 footer p {
@@ -456,7 +468,7 @@ body {
     padding: 21px 0px;
  
     bottom: 0;
-    background: #93073e;
+    background: #222222;
     left: 0;
 }
 #preamble {
@@ -487,17 +499,15 @@ body {
     position: absolute;
 }
 
-@media(max-width:768px) {
+/*@media(max-width:768px) {
     .i_parallax{
         display: block;
-        /* min-height: 300px; */
-        bottom: -120px;
+        bottom: 0px;
         background: rgba(0,0,0,0.3);
         width: 100%;
-        margin-bottom: 20px;
         position: absolute;
     }
-}
+}*/
 #bg_0{
     background: url("../img/theme-bg-mono.png") no-repeat center bottom;
     background-size: 100%;
@@ -520,7 +530,7 @@ body {
 #about {
    text-align: left; 
     background: #f9f9f9;
-    box-shadow: 0px 0px 10px -2px #000;
+    /*box-shadow: 0px 0px 10px -2px #000;*/
     color: black;
     
 }
@@ -808,7 +818,7 @@ color: #fdb879;
         font-size: 1.7em;
     }
     .content-section {
-    padding-top: 242px;
+    padding-top: 152px;
 }
     .textblock a.btn {
         margin-left: 9%;
