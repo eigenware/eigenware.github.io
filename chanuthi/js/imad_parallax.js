@@ -1,7 +1,7 @@
 var bg_0 = $("#bg_0");
 var bg_1 = $("#bg_1");
 var bg_2 = $("#bg_2");
-var i_width = $(window).width();
+var i_width = $(window).width()*90 /100 ;
 var depth = 200;
 
 var intro = $("#slider");
