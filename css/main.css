@@ -1795,9 +1795,10 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 10;
 	position: relative;
 	overflow: hidden;
+	margin: 10px 0px
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1856,7 +1857,9 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.6);
 }
 #portfolio .folio-item:hover .overlay {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	padding: 5px
 }
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
