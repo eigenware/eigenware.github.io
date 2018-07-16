@@ -2098,7 +2098,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 
- #services  .mybtn{
+ #services .mybtn{
 	padding: 4px 8px ;
 	border-radius: 3px;
 	font-family: "poppins-semibold", sans-serif;
@@ -2109,7 +2109,6 @@ header .logo a {
 }
 
 #services a:hover,#services .mybtn:focus, #services .mybtn:visited{
-	border:none !important;
 	outline:none !important;
 	text-decoration:none !important;
 	color:inherit !important;
@@ -2674,7 +2673,6 @@ footer .copyright span:last-child::after {
 }
 
 #services a:hover,#services .mybtn:focus,#services  .mybtn:visited{
-	border:none !important;
 	outline:none !important;
 	text-decoration:none !important;
 	color:inherit !important;
