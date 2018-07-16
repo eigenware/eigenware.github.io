@@ -2098,7 +2098,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 
- .mybtn{
+ #services  .mybtn{
 	padding: 4px 8px ;
 	border-radius: 3px;
 	font-family: "poppins-semibold", sans-serif;
@@ -2108,13 +2108,13 @@ header .logo a {
 	text-decoration:none;
 }
 
-a:hover,.mybtn:focus, .mybtn:visited{
+#services a:hover,#services .mybtn:focus, #services .mybtn:visited{
 	border:none !important;
 	outline:none !important;
 	text-decoration:none !important;
 	color:inherit !important;
   }
-  
+
 #services {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
@@ -2662,7 +2662,8 @@ footer .copyright span:last-child::after {
     text-align: center;
 }
 
-.mybtn{
+
+#services .mybtn{
 	padding: 4px 8px ;
 	border-radius: 3px;
 	font-family: "poppins-semibold", sans-serif;
@@ -2672,7 +2673,7 @@ footer .copyright span:last-child::after {
 	text-decoration:none;
 }
 
-a:hover,.mybtn:focus, .mybtn:visited{
+#services a:hover,#services .mybtn:focus,#services  .mybtn:visited{
 	border:none !important;
 	outline:none !important;
 	text-decoration:none !important;
